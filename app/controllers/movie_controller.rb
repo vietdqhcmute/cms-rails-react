@@ -5,13 +5,13 @@ class MovieController < ApplicationController
   end
 
   def show
+    binding.pry
     movie = Movie.find(params[:id])
     render json: movie
   end
 
   def create
     movie = Movie.new(params[:movie])
-    binding.pry
     #movie.save!
   end
 
