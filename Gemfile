@@ -14,7 +14,7 @@ gem 'faker', '~> 2.8'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'carrierwave', '~> 2.1'
 gem 'pry', '~> 0.12.2'
 gem 'active_model_serializers'
 gem 'rack-cors'
